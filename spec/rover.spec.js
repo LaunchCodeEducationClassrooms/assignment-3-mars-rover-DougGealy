@@ -17,12 +17,12 @@ let response = rover.receiveMessage(message);
   let testCommandObjsArr = [testCommandObj1, testCommandObj2]
   let testMessage = new Message('testName', testCommandObjsArr);
 
-//test for in loop of command array
-for(let command in commands){
-  console.log(command)
-};
+// test for in loop of command array
+// for(let command in commands){
+//   console.log(command)
+// };
 
-console.log(response);
+//console.log(response);
   // 7 tests here!
 it("constructor sets position and default values for mode and generatorWatts", function(){
   let roverOne = new Rover(98382);
